@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<title>Finesse — Organic Shea & Body Care</title>
+<meta name="description" content="Finesse Kenya — KEBS approved organic shea body care. Body Butter, Hand Cream, Body Oil, Lip Balm & more. Handcrafted in Nairobi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE PROGRESS -->
+<div id="prog"></div>
+
+<!-- MOBILE MENU -->
+<div id="mm">
+  <button class="mm-x" onclick="closeMM()">✕</button>
+  <a href="#about"       onclick="closeMM()">About</a>
+  <a href="#products"    onclick="closeMM()">Products</a>
+  <a href="#bundles"     onclick="closeMM()">Bundles</a>
+  <a href="#ingredients" onclick="closeMM()">Ingredients</a>
+  <a href="#why"         onclick="closeMM()">Why Finesse</a>
+  <a href="#faq"         onclick="closeMM()">FAQ</a>
+  <a href="#contact"     onclick="closeMM()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+<a href="#" class="nav-logo">
+    
+<span>FINESSE</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#bundles">Bundles</a></li>
+    <li><a href="#ingredients">Ingredients</a></li>
+    <li><a href="#why">Why Finesse</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="nav-badge">🏅 KEBS Approved</div>
+    <button class="ham" onclick="openMM()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pat"></div>
+  <div class="orb1"></div>
+  <div class="orb2"></div>
+
+  <!-- LEFT: text -->
+  <div class="hero-l">
+    <div class="h-ey">Proudly Kenyan · Organically Made</div>
+    <h1>Nature's Touch<em>for Your Skin</em></h1>
+    <p class="hero-tg">Handcrafted body care rituals using the finest African shea and botanicals. Pure, potent, and made with love in Nairobi — KEBS approved.</p>
+    <div class="hero-act">
+      <a href="#products" class="btn-p">Shop the Collection</a>
+      <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20know%20more%20about%20your%20products%20%F0%9F%8C%BF" class="btn-o" target="_blank">Chat on WhatsApp</a>
+    </div>
+    <div class="hero-tr">
+      <div class="tr-item"><div class="tr-ic">🌿</div><div class="tr-tx"><strong>100% Organic</strong>No harsh chemicals</div></div>
+      <div class="tr-item"><div class="tr-ic">🏅</div><div class="tr-tx"><strong>KEBS Certified</strong>Quality assured</div></div>
+      <div class="tr-item"><div class="tr-ic">🇰🇪</div><div class="tr-tx"><strong>Made in Kenya</strong>Supporting local</div></div>
+    </div>
+  </div>
+
+  <!-- RIGHT: hero image -->
+  <div class="hero-r">
+    <div class="hero-img-wrap">
+      <img src="images/Hero.png" alt="Finesse Kenya hero">
+      <div class="hero-img-overlay"></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq"><div class="mq-t">
+  <span class="mq-i">Organic Shea Butter</span>
+  <span class="mq-i">KEBS Approved</span>
+  <span class="mq-i">Proudly Kenyan</span>
+  <span class="mq-i">All Natural Ingredients</span>
+  <span class="mq-i">Cruelty Free</span>
+  <span class="mq-i">Finesse Kenya</span>
+  <span class="mq-i">Handcrafted in Nairobi</span>
+  <span class="mq-i">Pure Body Care</span>
+  <span class="mq-i">Organic Shea Butter</span>
+  <span class="mq-i">KEBS Approved</span>
+  <span class="mq-i">Proudly Kenyan</span>
+  <span class="mq-i">All Natural Ingredients</span>
+  <span class="mq-i">Cruelty Free</span>
+  <span class="mq-i">Finesse Kenya</span>
+  <span class="mq-i">Handcrafted in Nairobi</span>
+  <span class="mq-i">Pure Body Care</span>
+</div></div>
+
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+<section class="about" id="about">
+  <div class="about-tx reveal">
+    <div class="eyebrow">Our Story</div>
+    <h2>Born in Kenya,<br>Crafted with Purpose</h2>
+    <p>Finesse was born from a deep belief that the finest skincare comes from nature. Every product is handcrafted in small batches using pure African shea butter and organic botanicals — free from parabens, synthetic fragrances, and harsh chemicals. We're KEBS approved, because your skin deserves nothing less.</p>
+    <div class="badges">
+      <div class="badge b-em">🌿 100% Natural</div>
+      <div class="badge b-go">🏅 KEBS Approved</div>
+      <div class="badge b-pu">💜 Cruelty Free</div>
+      <div class="badge b-em">🇰🇪 Kenyan Brand</div>
+    </div>
+  </div>
+  <div class="stats reveal d2">
+    <div class="stat"><div class="sn">100%</div><div class="sl">Natural Ingredients</div></div>
+    <div class="stat"><div class="sn">6</div><div class="sl">Product Formulas</div></div>
+    <div class="stat"><div class="sn">0</div><div class="sl">Harsh Chemicals</div></div>
+    <div class="stat"><div class="sn">🏅</div><div class="sl">KEBS Certified</div></div>
+  </div>
+</section>
+
+<!-- ABOUT IMAGE ROW -->
+<div class="about-imgs">
+  <div class="about-img-cell">
+    <div class="img-placeholder"><span>🌿</span><p>Behind the scenes</p></div>
+    <div class="about-img-label">Our Process</div>
+  </div>
+  <div class="about-img-cell">
+    <div class="img-placeholder"><span>🥜</span><p>Raw shea source</p></div>
+    <div class="about-img-label">Ingredients</div>
+  </div>
+  <div class="about-img-cell">
+    <div class="img-placeholder"><span>✨</span><p>Product close-up</p></div>
+    <div class="about-img-label">Our Products</div>
+  </div>
+  <div class="about-img-cell">
+    <div class="img-placeholder"><span>💚</span><p>Happy customers</p></div>
+    <div class="about-img-label">Real Results</div>
+  </div>
+</div>
+
+<!-- ═══════════════════ PRODUCTS ════════════════ -->
+<section class="prods" id="products">
+  <div class="prods-hd reveal">
+    <div class="eyebrow" style="justify-content:center">Our Collection</div>
+    <div class="gold-div"></div>
+    <h2>Eight Rituals of Nourishment</h2>
+    <p>Click any product to learn more. Hover the card to share on Facebook &amp; TikTok, or copy a direct link. Order instantly via WhatsApp.</p>
+  </div>
+  <div class="pgrid" id="pgrid"></div>
+</section>
+
+<!-- ═══════════════════ KEBS BAR ════════════════ -->
+<div class="kebs reveal">
+  <div class="ki"><div class="ks">🏅</div><div class="kt"><strong>KEBS Certified</strong><span>Kenya Bureau of Standards Approved</span></div></div>
+  <div class="ki"><div class="ks">🌿</div><div class="kt"><strong>100% Organic Ingredients</strong><span>No parabens · No sulfates · No synthetics</span></div></div>
+  <div class="ki"><div class="ks">🇰🇪</div><div class="kt"><strong>Made in Kenya</strong><span>Proudly supporting local industry</span></div></div>
+</div>
+
+<!-- ═══════════════════ BUNDLES ══════════════════ -->
+<section class="bundles" id="bundles">
+  <div class="bundles-hd reveal">
+    <div class="eyebrow" style="justify-content:center">Save More</div>
+    <div class="gold-div"></div>
+    <h2>Bundle &amp; Save</h2>
+    <p>Curated sets for every need — perfect as gifts or for building your complete Finesse skincare ritual.</p>
+  </div>
+  <div class="bgrid">
+
+    <div class="bcard reveal d1">
+      <div class="bcard-top">
+        <div class="bcard-badge">Starter</div>
+        <div class="bcard-icon">🌱</div>
+        <div class="bcard-name">Glow Starter Set</div>
+        <div class="bcard-desc">Perfect for first-timers. Three essentials to kick off your organic skincare ritual.</div>
+        <div class="bcard-items">
+          <div class="bitem">Shea Butter Lotion</div>
+          <div class="bitem">Whipped Shea Butter</div>
+          <div class="bitem">Lip Balm</div>
+        </div>
+      </div>
+      <div class="bcard-foot">
+        <div>
+          <div class="bp-was">KSh1400</div>
+          <div class="bp-now">KSh1330</div>
+          <div class="bp-save">Save 5%</div>
+        </div>
+        <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20order%20the%20*Glow%20Starter%20Set*%20bundle%20%F0%9F%8C%BF" class="obtn" target="_blank" style="gap:7px">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Order Bundle
+        </a>
+      </div>
+    </div>
+
+    <div class="bcard reveal d2">
+      <div class="bcard-top">
+        <div class="bcard-badge gold">Best Value</div>
+        <div class="bcard-icon">💎</div>
+        <div class="bcard-name">Full Body Ritual</div>
+        <div class="bcard-desc">The complete Finesse experience — everything you need for head-to-toe nourishment every day.</div>
+        <div class="bcard-items">
+          <div class="bitem">African Black Soap</div>
+          <div class="bitem">Emulsified Body Butter</div>
+          <div class="bitem">Body Oil</div>
+          <div class="bitem">Lip Balm</div>
+        </div>
+      </div>
+      <div class="bcard-foot">
+        <div>
+          <div class="bp-was">KSh2900</div>
+          <div class="bp-now">KSh2755</div>
+          <div class="bp-save">Save 5%</div>
+        </div>
+        <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20order%20the%20*Full%20Body%20Ritual%20Bundle*%20%F0%9F%8C%BF" class="obtn" target="_blank" style="gap:7px">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Order Bundle
+        </a>
+      </div>
+    </div>
+
+    <div class="bcard reveal d3">
+      <div class="bcard-top">
+        <div class="bcard-badge" style="background:var(--go-dk)">Gift</div>
+        <div class="bcard-icon">🎁</div>
+        <div class="bcard-name">Gift Set</div>
+        <div class="bcard-desc">A beautifully curated gift for someone special — thoughtfully chosen, naturally luxurious.</div>
+        <div class="bcard-items">
+          <div class="bitem">Whipped Shea Butter</div>
+          <div class="bitem">Shea Hand Cream</div>
+          <div class="bitem">Body Oil</div>
+          <div class="bitem">Lip Balm</div>
+        </div>
+      </div>
+      <div class="bcard-foot">
+        <div>
+          <div class="bp-was">KSh2450</div>
+          <div class="bp-now">KSh2330</div>
+          <div class="bp-save">Save 5%</div>
+        </div>
+        <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20order%20the%20*Gift%20Set%20Bundle*%20%F0%9F%8C%BF%20%F0%9F%8E%81" class="obtn" target="_blank" style="gap:7px">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Order Bundle
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════ DELIVERY STRIP ══════════ -->
+<div class="dstrip reveal">
+  <div class="ds-item"><div class="ds-ic">🚀</div><div class="ds-tx"><strong>Same-Day Nairobi</strong><span>Order before 2 PM</span></div></div>
+  <div class="ds-item"><div class="ds-ic">🇰🇪</div><div class="ds-tx"><strong>Kenya-Wide Delivery</strong><span>1–3 business days upcountry</span></div></div>
+  <div class="ds-item"><div class="ds-ic">📱</div><div class="ds-tx"><strong>M-Pesa Accepted</strong><span>Easy, secure payment</span></div></div>
+  <div class="ds-item"><div class="ds-ic">🔄</div><div class="ds-tx"><strong>Easy Returns</strong><span>7-day satisfaction guarantee</span></div></div>
+</div>
+
+<!-- ═══════════════════ INGREDIENTS ════════════ -->
+<section class="ings" id="ingredients">
+  <div class="ings-in">
+    <div class="ings-hd reveal">
+      <div class="eyebrow" style="justify-content:center">Pure &amp; Natural</div>
+      <div class="gold-div"></div>
+      <h2>Our Hero Ingredients</h2>
+      <p>Every Finesse formula is built around potent, organic ingredients — sourced honestly and used generously.</p>
+    </div>
+    <div class="igrid">
+      <div class="icard reveal d1"><div class="iico">🥜</div><div class="iname">Raw Shea Butter</div><div class="idesc">Unrefined African shea packed with vitamins A, E &amp; F. Deep moisturiser and skin barrier protector.</div></div>
+      <div class="icard reveal d2"><div class="iico">🫒</div><div class="iname">Olive Oil</div><div class="idesc">Rich in squalene and antioxidants. Locks in moisture and soothes inflammation naturally.</div></div>
+      <div class="icard reveal d3"><div class="iico">🥥</div><div class="iname">Coconut Oil</div><div class="idesc">Medium-chain fatty acids that deeply hydrate, repair the skin barrier, and fight bacteria gently.</div></div>
+      <div class="icard reveal d4"><div class="iico">🌸</div><div class="iname">Lavender Extract</div><div class="idesc">Calming botanical that soothes sensitive skin, reduces redness and promotes relaxation.</div></div>
+      <div class="icard reveal d1"><div class="iico">🍯</div><div class="iname">Beeswax</div><div class="idesc">Natural emulsifier that creates a protective film on the skin, sealing in hydration all day.</div></div>
+      <div class="icard reveal d2"><div class="iico">🌻</div><div class="iname">Sunflower Oil</div><div class="idesc">Lightweight, non-comedogenic oil rich in linoleic acid. Softens without clogging pores.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ WHY ══════════════════════ -->
+<section class="why" id="why">
+  <div class="why-in">
+    <div class="why-l reveal">
+      <div class="eyebrow" style="color:rgba(200,152,58,.65)">The Finesse Difference</div>
+      <div class="wgl"></div>
+      <h2>Why Choose<br>Finesse Essence?</h2>
+      <p>We craft rituals of nourishment using only what nature intended — rich African shea, plant oils, and botanicals. Backed by KEBS quality certification and made with genuine care for your skin.</p>
+    </div>
+    <div class="wgrid reveal d2">
+      <div class="wi"><span class="wico">🌱</span><h4>Farm-to-Skin Purity</h4><p>Sourced directly from African shea trees — unrefined, raw, and nutrient-dense.</p></div>
+      <div class="wi"><span class="wico">🏅</span><h4>KEBS Certified Quality</h4><p>Formulations that meet and exceed Kenya Bureau of Standards requirements.</p></div>
+      <div class="wi"><span class="wico">💧</span><h4>Deep Lasting Hydration</h4><p>Rich emollient blends that absorb beautifully, leaving skin soft for hours.</p></div>
+      <div class="wi"><span class="wico">🇰🇪</span><h4>Supporting Kenya</h4><p>Every purchase supports local farmers, artisans, and the Kenyan economy.</p></div>
+      <div class="wi"><span class="wico">🚫</span><h4>No Nasty Ingredients</h4><p>Zero parabens, sulfates, mineral oils or artificial fragrances. Ever.</p></div>
+      <div class="wi"><span class="wico">👨‍👩‍👧</span><h4>Family Safe</h4><p>Gentle enough for children and sensitive skin. Loved by the whole family.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ TESTIMONIALS ════════════ -->
+<section class="testi" id="testimonials">
+  <div class="testi-hd reveal">
+    <div class="eyebrow" style="justify-content:center">Customer Love</div>
+    <div class="gold-div"></div>
+    <h2>What Our Customers Say</h2>
+  </div>
+  <div class="tgrid">
+    <div class="tcard reveal d1">
+      <div class="tstars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="ttx">The Whipped Shea Butter is absolutely incredible! My skin has never felt this soft. The cloud-like texture just disappears into my skin. Totally obsessed!</p>
+      <div class="tauth"><div class="tav">AW</div><div><div class="tanm">Beatrice Wanjiku</div><div class="taloc">Nairobi, Kenya</div></div><div class="tvbadge">✓ Verified</div></div>
+    </div>
+    <div class="tcard reveal d2">
+      <div class="tstars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="ttx">The Body Butter has been a game changer for my dry skin. KEBS approved so I feel safe using it on my kids too. Ordering via WhatsApp was super easy!</p>
+      <div class="tauth"><div class="tav">GK</div><div><div class="tanm">Grace Kamau</div><div class="taloc">Kiambu, Kenya</div></div><div class="tvbadge">✓ Verified</div></div>
+    </div>
+    <div class="tcard reveal d3">
+      <div class="tstars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="ttx">The Shea Hand Cream fixed my cracked hands within a week. As a chef my hands take a beating — Finesse has been a lifesaver. I recommend it to everyone!</p>
+      <div class="tauth"><div class="tav">JO</div><div><div class="tanm">James Odhiambo</div><div class="taloc">Mombasa, Kenya</div></div><div class="tvbadge">✓ Verified</div></div>
+    </div>
+    <div class="tcard reveal d4">
+      <div class="tstars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="ttx">The Body Oil gives the most gorgeous glow — absorbs completely with no greasiness. I wore it to a wedding and had people asking what I was using all evening!</p>
+      <div class="tauth"><div class="tav">PN</div><div><div class="tanm">Purity Njeri</div><div class="taloc">Nakuru, Kenya</div></div><div class="tvbadge">✓ Verified</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ HOW TO USE ══════════════ -->
+<section class="howto" id="howto">
+  <div class="howto-in">
+    <div class="howto-hd reveal">
+      <div class="eyebrow" style="justify-content:center">Your Ritual</div>
+      <div class="gold-div"></div>
+      <h2>How to Use Finesse Products</h2>
+    </div>
+    <div class="hsteps">
+      <div class="hstep reveal d1"><div class="hnum">1</div><h4>Cleanse &amp; Prep</h4><p>Start with clean, slightly damp skin for maximum absorption of every formula.</p></div>
+      <div class="hstep reveal d2"><div class="hnum">2</div><h4>Take a Small Amount</h4><p>A little goes a long way. Scoop or pump a small amount and warm between your palms.</p></div>
+      <div class="hstep reveal d3"><div class="hnum">3</div><h4>Massage In Gently</h4><p>Apply using gentle circular motions until the product is fully absorbed into skin.</p></div>
+      <div class="hstep reveal d4"><div class="hnum">4</div><h4>Glow All Day</h4><p>Let Finesse's natural formula work its magic — nourishing deeply for hours.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ FAQ ══════════════════════ -->
+<section class="faq" id="faq">
+  <div class="faq-in">
+    <div class="faq-hd reveal">
+      <div class="eyebrow" style="justify-content:center">FAQ</div>
+      <div class="gold-div"></div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div id="faq-list"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════ BROADCAST ═══════════════ -->
+<section class="broadcast">
+  <div class="broadcast-in reveal">
+    <div class="eyebrow" style="justify-content:center;color:rgba(200,152,58,.7)">Stay Connected</div>
+    <h2>Get <em>Exclusive Deals</em><br>& New Arrivals First</h2>
+    <p>Join our WhatsApp broadcast list or follow us on social media — be first to know about restocks, seasonal specials, and members-only discounts.</p>
+    <div class="bcast-opts">
+      <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20Please%20add%20me%20to%20your%20WhatsApp%20broadcast%20list%20for%20updates%20and%20deals%20%F0%9F%8C%BF" class="bopt" target="_blank">
+        <div class="bopt-icon">💬</div>
+        <div class="bopt-text"><strong>WhatsApp Broadcast</strong><span>Deals & restocks direct to you</span></div>
+      </a>
+      <a href="https://www.facebook.com/share/1CY7m145ax/" class="bopt">
+        <div class="bopt-icon">📘</div>
+        <div class="bopt-text"><strong>Follow on Facebook</strong><span>Tips, tutorials & more</span></div>
+      </a>
+      <a href="https://www.tiktok.com/@finessebeautywellness?_r=1&_t=ZS-968VlOihguq" class="bopt">
+        <div class="bopt-icon">🎵</div>
+        <div class="bopt-text"><strong>Follow on TikTok</strong><span>Behind-the-scenes content</span></div>
+      </a>
+    </div>
+    <div class="bcast-note">We never spam. Updates only when it matters.</div>
+  </div>
+</section>
+
+<!-- ═══════════════════ CTA ══════════════════════ -->
+<section class="cta">
+  <h2>Ready to <em>Feel the Difference?</em></h2>
+  <p>Order any Finesse product directly on WhatsApp — fast delivery across Kenya. Your skin will thank you.</p>
+  <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20place%20an%20order%20%F0%9F%8C%BF" class="btn-p" target="_blank">Order on WhatsApp Now</a>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer id="contact">
+  <div class="ft">
+    <div>
+      <div class="fbn">FINESSE</div>
+      <p class="ftg">Organic body care crafted in Kenya. Pure ingredients, real results — approved by the Kenya Bureau of Standards.</p>
+      <div class="fsoc">
+        <a href="https://wa.me/254708313193" target="_blank" class="fsi" title="WhatsApp"><svg viewBox="0 0 24 24" width="15" height="15" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+        <a href="https://www.facebook.com/share/1CY7m145ax/" class="fsi" title="Facebook"><svg viewBox="0 0 24 24" width="15" height="15" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://www.tiktok.com/@finessebeautywellness?_r=1&_t=ZS-968VlOihguq" class="fsi" title="TikTok"><svg viewBox="0 0 24 24" width="15" height="15" fill="white"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+    </div>
+    <div class="fc">
+      <h5>Products</h5>
+      <ul>
+        <li><a href="#body-butter">Body Butter</a></li>
+        <li><a href="#shea-hand-cream">Shea Hand Cream</a></li>
+        <li><a href="#shea-butter-lotion">Shea Butter Lotion</a></li>
+        <li><a href="#body-oil">Body Oil</a></li>
+        <li><a href="#lip-balm">Lip Balm</a></li>
+        <li><a href="#whipped-shea-butter">Whipped Shea Butter</a></li>
+        <li><a href="#african-black-soap">African Black Soap</a></li>
+        <li><a href="#raw-unrefined-shea-butter">Raw Unrefined Shea Butter</a></li>
+      </ul>
+    </div>
+    <div class="fc">
+      <h5>Get in Touch</h5>
+      <ul>
+        <li><a href="https://wa.me/254708313193" target="_blank">WhatsApp Orders</a></li>
+        <li><a href="mailto:finesse.essencebiz@gmail.com">finesse.essencebiz@gmail.com</a></li>
+        <li><a href="#">Nairobi, Kenya</a></li>
+      </ul>
+      <div style="margin-top:20px;font-size:12px;color:rgba(253,250,244,.3);line-height:1.7">
+        Mon – Sat · 8 AM – 8 PM EAT
+      </div>
+    </div>
+  </div>
+  <div class="fb">
+    <span>© 2026 Finesse Essence. All rights reserved.</span>
+    <span>Crafted with 💚 in Kenya · <a href="#">KEBS Approved</a></span>
+  </div>
+</footer>
+
+<!-- PRODUCT MODAL -->
+<div class="modal-ov" id="modal-ov" onclick="closeModal(event)">
+  <div class="modal" id="modal-box">
+    <button class="modal-x" onclick="closeModal()">✕</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20place%20an%20order%20%F0%9F%8C%BF" class="wa-f" target="_blank" title="Order on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
+
+<!-- MOBILE STICKY BAR -->
+<div class="mob-bar">
+  <div class="mob-bar-tx">
+    <strong>Shop Finesse Essence</strong>
+    <span>Organic · KEBS Approved · Nairobi</span>
+  </div>
+  <a href="https://wa.me/254708313193?text=Hello%20Finesse%20Kenya!%20I%27d%20like%20to%20order%20%F0%9F%8C%BF" class="mob-bar-btn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    Order Now
+  </a>
+</div>
+
+<!-- TOAST -->
+<div id="toast">🔗 Link copied to clipboard!</div>
+
+<script src="app.js"></script>
+</body>
+</html>
